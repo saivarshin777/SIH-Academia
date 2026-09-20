@@ -18,8 +18,8 @@ export default function Navbar() {
       <div className="container py-2">
         <Link to="/" className="navbar-brand fw-bold font-display d-flex align-items-center gap-2">
           <span
-            className="d-inline-flex align-items-center justify-content-center rounded-3"
-            style={{ width: 32, height: 32, background: 'var(--aic-indigo)', color: '#fff' }}
+            className="aic-brand-mark d-inline-flex align-items-center justify-content-center rounded-3"
+            style={{ width: 32, height: 32 }}
           >
             <i className="bi bi-diagram-3-fill" aria-hidden="true" />
           </span>
