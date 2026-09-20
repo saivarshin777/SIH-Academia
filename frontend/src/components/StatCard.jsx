@@ -7,7 +7,7 @@ export default function StatCard({ icon, label, value, trend, accent = 'indigo' 
   }
 
   return (
-    <div className="aic-card p-3 h-100">
+    <div className="aic-card aic-hover-lift p-3 h-100">
       <div className="d-flex align-items-start justify-content-between">
         <div>
           <p className="text-secondary small mb-1">{label}</p>

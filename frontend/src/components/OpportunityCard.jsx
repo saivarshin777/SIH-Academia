@@ -11,7 +11,7 @@ export default function OpportunityCard({
   onViewDetails,
 }) {
   return (
-    <div className="aic-card p-3 h-100 d-flex flex-column">
+    <div className="aic-card aic-hover-lift p-3 h-100 d-flex flex-column">
       <div className="d-flex justify-content-between align-items-start mb-1">
         <span className="text-uppercase small fw-semibold" style={{ color: 'var(--aic-indigo)', letterSpacing: '0.02em' }}>
           {type}

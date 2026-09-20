@@ -7,11 +7,11 @@ export default function AuthLayout() {
         <div className="row justify-content-center">
           <div className="col-12 col-sm-8 col-md-6 col-lg-5">
             <Link to="/" className="d-flex align-items-center gap-2 justify-content-center mb-4 text-decoration-none">
-              <span
-                className="d-inline-flex align-items-center justify-content-center rounded-3"
-                style={{ width: 36, height: 36, background: 'var(--aic-indigo)', color: '#fff' }}
-              >
-                <i className="bi bi-diagram-3-fill" />
+            <span
+              className="aic-brand-mark d-inline-flex align-items-center justify-content-center rounded-3"
+              style={{ width: 36, height: 36 }}
+            >
+              <i className="bi bi-diagram-3-fill" />
               </span>
               <span className="fw-bold font-display" style={{ color: 'var(--aic-ink)' }}>
                 Academia–Industry Portal
